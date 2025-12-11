@@ -6,7 +6,7 @@ const db = mysql.createConnection({
     host: "127.0.0.1",     // IMPORTANT for Docker in Codespaces
     user: "root",
     password: "root",
-    database: "auth_demo"
+    database: "auth_db"
 });
 
 // Connect to MySQL
